@@ -6,9 +6,9 @@ def sort(suffixes: tuple, src_path: str, dst_path: str, verbose: bool = False):
 
     :param suffixes: tuple of file suffixes (mp4, mov)
     :param src_path: path that contains files needed be sorted
-    :param dst_path: destination path sorted files
+    :param dst_path: destination path of sorted files
     :param verbose: prints paths to which were files sorted to
-    :return: void
+    :return: None
     """
 
     assert suffixes, "List is empty"
